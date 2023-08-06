@@ -1,2 +1,3 @@
 # odin-recipes
-Pure html project for practicing basic html skills
+
+Simple recipe book project for learning HTML/CSS in The Odin Project course.
