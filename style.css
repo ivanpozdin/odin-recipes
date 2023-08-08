@@ -1,24 +1,93 @@
-h1,
-h2,
-h3 {
+h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   background-color: #fabb9b;
   text-align: center;
 }
 
-h3 {
-  background-color: #faccb5;
-}
 .recipes {
   font-size: 20px;
 }
 
 body {
-  background-color: #f4f4f4;
+  background-color: #fff;
   font-family: tahoma;
+  margin: 0;
 }
 
 img {
   height: auto;
-  width: 50vw;
+  width: 25vw;
+}
+.description-container {
+  margin-left: 0;
+  display: inline-block;
+  width: 30vw;
+  vertical-align: top;
+  padding: 1vw;
+  border: 1px rgb(223, 200, 27) solid;
+  border-radius: 2%;
+  background-color: #f0f9f9;
+  font-weight: lighter;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.description-container h2 {
+  color: #177;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.description-container p {
+  margin-top: 0;
+}
+
+.img-container {
+  display: inline-block;
+  width: 25vw;
+  margin-left: 10vw;
+}
+
+.ingredients-container li,
+.steps-container li {
+  padding-bottom: 0.6rem;
+}
+
+.ingredients-container,
+.steps-container {
+  border-radius: 2%;
+  padding: 3px;
+  width: 60vw;
+  margin-left: 10vw;
+}
+
+.ingredients-container h2,
+.steps-container h2 {
+  padding-bottom: 10px;
+  border-bottom: #177 solid 2px;
+  text-align: center;
+}
+
+.ingredients-container h3 {
+  margin-bottom: -10px;
+}
+
+.link-to-original-container {
+  text-align: center;
+  width: 60vw;
+  margin-left: 10vw;
+  padding: 3px;
+  /* background-color: #fabb9b; */
+}
+
+.link-to-original {
+  display: block;
+  font-weight: bold;
+  /* margin-bottom: 20px;
+  margin-left: 10vw; */
+  padding: 3px 10px;
+
+  border-radius: 2%;
+  color: black;
+  text-align: center;
+  text-decoration: none;
 }
