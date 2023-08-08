@@ -54,9 +54,6 @@ img {
 
 .ingredients-container,
 .steps-container {
-  border-radius: 2%;
-  padding: 3px;
-  width: 60vw;
   margin-left: 10vw;
 }
 
@@ -82,12 +79,60 @@ img {
 .link-to-original {
   display: block;
   font-weight: bold;
-  /* margin-bottom: 20px;
-  margin-left: 10vw; */
   padding: 3px 10px;
-
   border-radius: 2%;
   color: black;
   text-align: center;
   text-decoration: none;
+}
+
+.recipes-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.recipes-list a {
+  text-decoration: none;
+}
+.recipes-list li {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.recipe-preview-container {
+  width: 200px;
+  /* height: 40vw; */
+
+  padding-bottom: 5px;
+  font-size: small;
+  color: black;
+  text-decoration: none;
+}
+
+.img-recipe-preview {
+  width: 200px;
+  height: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.img-recipe-preview-container {
+  width: 200px;
+}
+
+#index-body {
+  background-color: #e0f3fa;
+}
+
+.recipes-list {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+  width: 60vw;
 }
